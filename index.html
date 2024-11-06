@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="music-library">
+            <h2>Music Library</h2>
+            <div class="tracks">
+                <!-- Display the library of tracks with album covers and artist names -->
+            </div>
+        </div>
+        <div class="audio-controls">
+            <div class="player">
+                <h2>Now Playing</h2>
+                <div class="track-info">
+                    <span id="track-title">Track Title</span>
+                    <span id="track-artist">Artist</span>
+                </div>
+                <div class="progress-bar">
+                    <div id="progress"></div>
+                </div>
+                <div class="buttons">
+                    <button id="shuffle-button">Shuffle</button>
+                    <button id="previous-button">Previous</button>
+                    <button id="play-pause-button">Play/Pause</button>
+                    <button id="next-button">Next</button>
+                    <button id="repeat-button">Repeat</button>
+                </div>
+            </div>
+        </div>
+        <div class="playlist">
+            <h2>Playlist</h2>
+            <ul id="playlist-list">
+                <!-- Display user-created playlists -->
+            </ul>
+            <button id="add-to-playlist">Add to Playlist</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
